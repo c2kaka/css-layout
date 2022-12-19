@@ -1,0 +1,44 @@
+.cards {
+    display: flex;
+    flex-flow: wrap;
+    gap: 1rem;
+}
+
+.card {
+    /* layout */
+    flex: 1 1 300px;
+    display: flex;
+    flex-direction: column;
+    /* style */
+    border: 1px solid gray;
+    border-radius: 6px;
+    padding: 10px;
+    word-break: break-all;
+}
+
+.card > figure {
+    margin: 0;
+    height: 200px;
+    background: aqua;
+}
+
+/* 实现所有卡片的按钮都能在底部对齐 */
+/* 方法1 */
+.card > p {
+    flex-grow: 1;
+}
+
+/* 方法2 */
+.card > button {
+    margin-top: auto;
+}
+
+/* 按钮居左 */
+.card button {
+    align-self: flex-start;
+}
+
+/* 按钮居右 */
+.card button {
+    align-self: flex-end;
+}

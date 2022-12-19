@@ -1,0 +1,14 @@
+.container {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: darkgray;
+}
+
+.card {
+    background: blueviolet;
+    color: white;
+    font-size: 80px;
+}

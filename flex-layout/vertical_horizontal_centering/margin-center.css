@@ -1,0 +1,13 @@
+.container {
+    height: 600px;
+    width: 600px;
+    display: flex;
+    background: darkgray;
+}
+
+.card {
+    background: blueviolet;
+    color: white;
+    font-size: 80px;
+    margin: auto;
+}
